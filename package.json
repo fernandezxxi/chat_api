@@ -1,0 +1,27 @@
+{
+"name":"1-express-project",
+"version":"1.0.0",
+"description":"1. Inisialisasi git    --> git init 2. Inisialisasi npm    --> npm init -y 3. Install package yang dibutuhkan: express, multer, cors, @google/genai, dotenv    --> npm install express multer cors @google/genai dotenv 4. Tambahkan .gitignore untuk node_modules dan .env 5. Buat file .env untuk menyimpan GEMINI_API_KEY 6. Buat file .env.example untuk contoh env variable 7. Buat file index.js untuk menulis kode server 8. Jalankan `node index.js` untuk test hasilnya",
+"main": "index.js",
+"type": "module",
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+"keywords": ["express", "multer", "cors", "@google/genai", "dotenv"],
+"author": "Your Name",
+"license": "ISC",
+"dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "@google/genai": "^1.22.0"
+},
+"repository": {
+    "type": "git",
+    "url": "https://github.com/fernandezxxi/1-express-project.git"
+},
+"bugs": {
+    "url": "https://github.com/fernandezxxi/1-express-project/issues"
+},
+"homepage": "https://github.com/fernandezxxi/1-express-project#readme"
