@@ -118,6 +118,9 @@ app.use(cors());
 app.use(express.json());
 //app.use(multer().none());
 
+// Serve static files from public directory
+app.use(express.static("public"));
+
 //3. initiate endpoint
 
 // [HTTP method: GET, POST, PUT, PATCH, DELETE]
